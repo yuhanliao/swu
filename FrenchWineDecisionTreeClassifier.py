@@ -1,8 +1,8 @@
 #coding:gbk
 """
 利用决策树算法进行分类
-作者：
-日期：
+作者：廖淯涵
+日期：2020/5/13
 """
 import pandas as pd           # 调入需要用的库
 import numpy as np
@@ -20,7 +20,7 @@ print(df.head())
 df.describe()
 print(df.describe())
 
-plt.figure(figsize=(20, 10)) #利用seaborn库绘制三种Iris花不同参数图
+plt.figure(figsize=(20, 10)) #利用seaborn库绘制三种葡萄不同参数图
 for column_index, column in enumerate(df.columns):
     if column == 'species':
         continue
